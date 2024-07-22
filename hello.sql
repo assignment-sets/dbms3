@@ -91,3 +91,12 @@ select
     count(*)
 from
     employee;
+
+-- *count(*) vs count(distinct)
+
+select
+    max(salary) as highest_salary,
+    avg(salary) as avg_salary,
+    sum(salary) as total_salary
+from
+    employee;
