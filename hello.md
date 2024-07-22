@@ -75,3 +75,45 @@ FROM employee;
 ```
 
 This creates a view named `emp` that includes only the `employeeid` and `firstname` columns from the `employee` table.
+
+# Additional SQL Notes
+
+## Topics to Learn
+
+1. Join
+2. Where clause
+3. Relation and Foreign Key (FK)
+4. Update vs Alter
+5. Dual
+
+**Note:** The `SELECT` keyword is used for column selection, while the `WHERE` clause is for row selection based on column conditions.
+
+## Aggregate Functions
+
+### Count
+
+To count all rows:
+
+```sql
+SELECT COUNT(*)
+FROM employee;
+```
+
+**Note:** There's a difference between `COUNT(*)` and `COUNT(DISTINCT column)`.
+
+### Other Aggregate Functions
+
+```sql
+SELECT
+    MAX(salary) AS highest_salary,
+    AVG(salary) AS avg_salary,
+    SUM(salary) AS total_salary
+FROM employee;
+```
+
+This query demonstrates the use of:
+- `MAX()`: Finds the highest salary
+- `AVG()`: Calculates the average salary
+- `SUM()`: Computes the total of all salaries
+
+These functions provide summary statistics about the `salary` column in the `employee` table.
