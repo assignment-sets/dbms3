@@ -90,6 +90,7 @@ from
 -- aggregate functions
 -- order by : sorting of vals col wise
 --* sorting orders
+--*length keyword
 
 -- aggregate functions
 select
