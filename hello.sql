@@ -83,8 +83,13 @@ from
 -- 1.join
 -- 2.where clause
 -- 3.relation and fk
--- 4.update vs alter
+-- 4.update vs alter-- 5.dual
+-- 6.group
+-- 7.order by
 -- *select keyword is used for cols selection and where is for col wise row selection
+-- aggregate functions
+-- order by : sorting of vals col wise
+--* sorting orders
 
 -- aggregate functions
 select
