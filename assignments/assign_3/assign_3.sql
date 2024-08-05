@@ -286,4 +286,3 @@ FROM
 -- q1
 select f_name, l_name, job_type from employee;
 
-
